@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Average&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: #ad343e;
+  --accent-color: #f9f9f7;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  color: black !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.navbar .nav-link:hover {
+  color: rgb(28, 31, 31) !important;
+}
+
+.navbar .bookTable-btn:hover {
+  cursor: pointer;
+  background-color: rgb(233, 242, 247) !important;
+}
+
+/* Home */
+.section-home {
+  background: url("../images/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.section-home .home-content > h1 {
+  font-size: 80px;
+  font-family: "Average", serif;
+}
+
+.section-home .home-content .home_btn1 {
+  background-color: var(--primary-color);
+  color: white;
+  outline: none;
+  border: none;
+  transition: all 0.3s;
+}
+
+.section-home .home-content .home_btn1:hover {
+  cursor: pointer;
+  background-color: rgb(224, 36, 36);
+  transition: all 0.3s;
+}
+
+.section-home .home-content .home_btn2:hover {
+  cursor: pointer;
+  background-color: rgb(223, 223, 223);
+  transition: all 0.3s;
+}
+
+/* Menu & Testimonial */
+.section-testimonial .testimonial-content > h2,
+.section-menu .menu-content > h2 {
+  font-size: 55px;
+  font-family: "Average", serif;
+}
+
+/* utilities */
+.icon-100 {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.text-primary-color {
+  color: var(--primary-color) !important;
+}
+
+.accent-bg {
+  background-color: var(--accent-color);
+}
+
+/* Section Services */
+.section-services h2 {
+  font-family: "Average", serif;
+  font-size: 50px;
+}
+
+.section-services .card-text {
+  font-size: 14px !important;
+}
+
+/* Section Delivery */
+.section-delivery {
+  padding: 70px !important;
+}
+
+.section-delivery h2 {
+  font-size: 50px !important;
+  font-family: "Average", serif;
+}
+
+/* Contact */
+.section-contact {
+  padding: 100px 180px;
+  font-family: "Average", serif;
+}
+
+.section-contact .contact_btn:hover {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+  transition: all 0.3s;
+}
+
+.section-contact .contact_details {
+  position: absolute;
+  bottom: -50px;
+  right: -20px;
+  padding: 25px 30px;
+  width: 65%;
+  background-color: #5d5d5d;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* footer */
+.footer {
+  background-color: #5d5d5d;
+  padding: 20px 40px;
+}
+
+.footer .footer_text {
+  font-size: 13px;
+  max-width: 75%;
+  color: aliceblue;
+  font-weight: 300;
+}
+
+.footer .footer_text2 {
+  color: #f9f9f7;
+  font-size: 14px;
+  margin-left: -220px;
+}
+
+.footer .footer_nav {
+  list-style: none;
+}
+
+.footer .footer_nav > li:hover {
+  color: #fff;
+}
+
+.footer .footer_svg:hover {
+  cursor: pointer;
+}
